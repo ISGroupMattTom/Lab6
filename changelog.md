@@ -12,7 +12,12 @@ Release Date: Mar 04, 2017
 ## Updated Components
 for jobs 6 (Captain)
 
--
+-	Changelog.md	(Captain)
+-	Controllers	(Captain)
+	-	Mtce
+-	Views
+	-	itemlist
+	-	itemnav
 
 ## *Version 1.0*
 
