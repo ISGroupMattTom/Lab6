@@ -3,7 +3,10 @@ class Mtce extends Application {
 
 	public function index()
 	{
-			$this->data['pagetitle'] = 'TODO List Maintenance';
+			// MATT! the next two lines should be in the 'show_page' function! !!!!!! 1!!! !!! !! !! !! !!  MAATTTTT !! !!
+			$role = $this->session->userdata('userrole');
+			$this->data['pagetitle'] = 'TODO List Maintenance ('. $role . ')';
+			//$this->data['pagetitle'] = 'TODO List Maintenance';
 			$tasks = $this->tasks->all(); // get all the tasks
 
 			// substitute the status name
